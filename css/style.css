@@ -22,4 +22,13 @@
 .first-section {
     background-color: khaki;
     height: 500px;
+    margin-bottom: 30px;
+}
+
+.azzurro {
+    background-color: lightblue;
+}
+
+.second-section {
+    height: 670px;
 }
