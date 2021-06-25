@@ -38,6 +38,7 @@
 .second-section {
     height: 585px;
     margin-bottom: 10px;
+    background-color: lightblue;
 }
 
 /* footer */
@@ -45,3 +46,4 @@
     height: 60px;
     background-color: blueviolet;
 }
+
