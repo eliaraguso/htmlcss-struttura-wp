@@ -38,7 +38,7 @@
 .second-section {
     height: 585px;
     margin-bottom: 10px;
-    background-color: lightblue;
+    background-color: dodgerblue;
 }
 
 /* footer */
@@ -47,3 +47,33 @@
     background-color: blueviolet;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box-left  {
+    float: left;
+    width: calc((100% / 4) - 20px);
+    margin: 25px 10px 10px 0px ;
+}
+
+.box-right {
+    float: right;
+    width: calc((100% / 4) - 20px);
+    margin: 25px 0px 10px 10px; 
+
+}
+
+.box-center{
+    width: calc(100% / 2);
+    float: left;
+    margin: 25px 10px 10px;
+}
+
+
+.box-left,.box-center,.box-right {
+    background-color: lightblue;
+    height: 538px;
+}
