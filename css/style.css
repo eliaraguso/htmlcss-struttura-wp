@@ -19,7 +19,7 @@
     margin-bottom: 30px;
 }
 
-/* main  */
+/* first section khaki  */
 .first-section {
     background-color: khaki;
     height: 500px;
@@ -30,21 +30,16 @@
     background-color: lightblue;
 }
 
+/* second section horizontal lighblue */
 .second-section-horizontal {
     height: 85px;
-    background-color: lightblue;
 }
 
+/* second section boxes */
 .second-section {
     height: 585px;
     margin-bottom: 10px;
     background-color: dodgerblue;
-}
-
-/* footer */
-.footer {
-    height: 60px;
-    background-color: blueviolet;
 }
 
 .clearfix::after {
@@ -74,6 +69,11 @@
 
 
 .box-left,.box-center,.box-right {
-    background-color: lightblue;
     height: 538px;
+}
+
+/* footer */
+.footer {
+    height: 60px;
+    background-color: blueviolet;
 }
