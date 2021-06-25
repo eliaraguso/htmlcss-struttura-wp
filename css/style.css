@@ -30,8 +30,13 @@
     background-color: lightblue;
 }
 
+.second-section-horizontal {
+    height: 85px;
+    background-color: lightblue;
+}
+
 .second-section {
-    height: 670px;
+    height: 585px;
     margin-bottom: 10px;
 }
 
