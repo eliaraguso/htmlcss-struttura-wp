@@ -15,5 +15,11 @@
 /* header */
 .header {
     background-color: orchid;
-    height: 90px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.first-section {
+    background-color: khaki;
+    height: 500px;
 }
