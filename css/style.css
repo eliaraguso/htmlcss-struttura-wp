@@ -5,11 +5,16 @@
     box-sizing: border-box;
 }
 
-/* body */
+/* common */
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container {
     max-width: 80%;
     margin: auto;
-    /* background-color: aqua */
 }
 
 /* header */
@@ -20,60 +25,42 @@
 }
 
 /* first section khaki  */
-.first-section {
+.hero {
     background-color: khaki;
     height: 500px;
     margin-bottom: 30px;
 }
 
-.azzurro {
-    background-color: lightblue;
-}
-
-/* second section horizontal lighblue */
-.second-section-horizontal {
-    height: 85px;
-}
-
-/* second section boxes */
-.second-section {
-    height: 585px;
-    margin-bottom: 10px;
+.leadership {
     background-color: dodgerblue;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+.leadership-title {
+    background-color: lightblue;
+    height: 85px;
 }
 
-.box-left  {
+.row {
+    padding: 20px 0;
+}
+
+.col-left, .col-center, .col-right {
     float: left;
-    width: calc((100% / 4) - 20px);
-    margin: 25px 10px 10px 0px ;
+    background-color: lightblue;
 }
 
-.box-right {
-    float: right;
-    width: calc((100% / 4) - 20px);
-    margin: 25px 0px 10px 10px; 
-
+.col-left, .col-right{
+    width: 20%;
 }
 
-.box-center{
-    width: calc(100% / 2);
-    float: left;
-    margin: 25px 10px 10px;
-}
-
-
-.box-left,.box-center,.box-right {
-    height: 538px;
+.col-center{
+    width: calc(60% - 40px);
+    margin: 0 20px;
 }
 
 /* footer */
 .footer {
     height: 60px;
     background-color: blueviolet;
+    margin: 10px 0 20px 0;
 }
